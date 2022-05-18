@@ -51,7 +51,7 @@ class QuestionForm extends React.Component {
         e.preventDefault();
         console.log(this.state.activeItem)
         var csrftoken = this.getCookie('csrftoken')
-        var url = "adittadas.pythonanywhere.com/api/question/"
+        var url = "https://adittadas.pythonanywhere.com/api/question/"
         fetch(url, {
             method: 'post',
             headers: {

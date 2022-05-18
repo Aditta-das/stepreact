@@ -20,6 +20,7 @@ class Home extends React.Component {
             },
         }
         this.fetchLeetcodeList = this.fetchLeetcodeList.bind(this)
+        this.fetchQuestion = this.fetchQuestion.bind(this)
     };
 
     componentDidMount() {
@@ -28,8 +29,12 @@ class Home extends React.Component {
     }
 
     fetchLeetcodeList() {
-        console.log('Fetching...');
-        fetch('adittadas.pythonanywhere.com/api/codes/')
+        fetch('https://adittadas.pythonanywhere.com/api/codes/', {
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        })
             .then(response => response.json())
             .then(data2 =>
                 this.setState({
@@ -39,8 +44,12 @@ class Home extends React.Component {
     }
 
     fetchQuestion() {
-        console.log('Fetching...');
-        fetch('adittadas.pythonanywhere.com/api/question/')
+        fetch('https://adittadas.pythonanywhere.com/api/question/', {
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        })
             .then(response => response.json())
             .then(data =>
                 // console.log(data)

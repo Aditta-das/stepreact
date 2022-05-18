@@ -17,7 +17,7 @@ function Navbar() {
                     <Link className="nav-link" to="/dropaquestion">Drop A Question</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/challanges">Challanges</Link>
+                    <Link className="nav-link" to="/qa">Q&A</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/resume">My Resume</Link>

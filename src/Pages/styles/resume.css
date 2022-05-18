@@ -1,6 +1,7 @@
 @page{
   size: letter portrait;
   margin: 0;
+  text-align: center;
 }
 
 *{
@@ -9,7 +10,7 @@
 
 :root{
   --page-width: auto;
-  --page-height: auto;
+  --page-height: 1100px;
   --decorator-horizontal-margin: 0.2in;
 
   --sidebar-horizontal-padding: 0.2in;
@@ -255,9 +256,15 @@ li{
   padding: 0.05in 0 0.07in 0;
 }
 
-.details .place{
+.details {
   float: left;
   font-size: 7.5pt;
+}
+
+.place {
+  float: left;
+  font-size: 12px !important;
+  font-weight: 600;
 }
 
 .details .location{

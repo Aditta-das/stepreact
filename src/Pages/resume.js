@@ -12,7 +12,7 @@ class Resume extends React.Component {
                     <section id="main">
                         <header id="title">
                             <h1>Aditta Das Nishad</h1>
-                            <span className="subtitle">North Kashimpur, Punchgachia, Feni, Bangladesh</span><br/>
+                            <span className="subtitle">North Kashimpur, Punchgachia, Feni, Bangladesh</span><br />
                             <span className="subtitle"><b>Phone: +8801824967296</b> || <b>Email:</b> <a className="mailLink" href="mailto:aditta.das.nishad@gmail.com"><b>aditta.das.nishad@gmail.com</b></a></span>
                         </header>
                         <section className="main-block">
@@ -21,20 +21,19 @@ class Resume extends React.Component {
                             </h2>
                             <section className="blocks">
                                 <div className="date">
-                                    <span>2015</span><span>present</span>
+                                    <span>Nov, 2020</span><span>Jan, 2021</span>
                                 </div>
                                 <div className="decorator">
                                 </div>
                                 <div className="details">
                                     <header>
-                                        <h3>Some Position</h3>
-                                        <span className="place">Some Workplace</span>
+                                        <h3>ML Engineer (Intern)</h3>
+                                        <span className="place">Pioneer Alpha</span>
                                         <span className="location">(remote)</span>
                                     </header>
                                     <div>
                                         <ul>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio. Vestibulum dapibus pharetra odio, egestas ullamcorper ipsum congue ac. Maecenas viverra tortor eget convallis vestibulum. Donec pulvinar venenatis est, non sollicitudin metus laoreet sed. Fusce tincidunt felis nec neque aliquet porttitor</li>
+                                            <li>Worked there as an intern in computer vision section. Worked on licence plate detection.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -47,35 +46,13 @@ class Resume extends React.Component {
                                 </div>
                                 <div className="details">
                                     <header>
-                                        <h3>Another Position</h3>
-                                        <span className="place">Some Workplace</span>
-                                        <span className="location">Some City, Some Country</span>
+                                        <h3>Creative Developer</h3>
+                                        <span className="place">SEBPO</span>
+                                        <span className="location">Dhaka, Bangladesh (Remote)</span>
                                     </header>
                                     <div>
                                         <ul>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </section>
-                            <section className="blocks">
-                                <div className="date">
-                                    <span>2013</span><span>2014</span>
-                                </div>
-                                <div className="decorator">
-                                </div>
-                                <div className="details">
-                                    <header>
-                                        <h3>Yet Another Job Position</h3>
-                                        <span className="place">Some Workplace</span>
-                                        <span className="location">Some City, Some Country</span>
-                                    </header>
-                                    <div>
-                                        <ul>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                                            <li>As a creative developer worked there with JavaScript, JQuery and other tools</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -83,60 +60,96 @@ class Resume extends React.Component {
                         </section>
                         <section className="main-block">
                             <h2>
-                                <i className="fa fa-folder-open"></i> Selected Projects
+                                <i className="fa fa-folder-open"></i> Projects
                             </h2>
                             <section className="blocks">
                                 <div className="date">
-                                    <span>2015</span><span>2016</span>
+
                                 </div>
                                 <div className="decorator">
                                 </div>
                                 <div className="details">
                                     <header>
-                                        <h3>Some Project 1</h3>
-                                        <span className="place">Some workplace</span>
+                                        <h3><b>Live Tweet Sentiment Analysis Using API</b></h3>
                                     </header>
                                     <div>
                                         <ul>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio. Vestibulum dapibus pharetra odio, egestas ullamcorper ipsum congue ac</li>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio</li>
+                                            <li>Twitter live sentiment analysis using Twitter API.. For
+                                                visualization and live stream used plotly. For sentiment
+                                                analysis used the inbuilt NLP package VaderSentiment.</li>
+                                            <li>Keywords: Plotly, TwitterAPI, VaderSentiment</li>
+                                            <li><a href="https://github.com/Aditta-das/SentimentWithDash/tree/main/TwitterSentiment">github</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </section>
                             <section className="blocks">
                                 <div className="date">
-                                    <span>2014</span><span>2015</span>
+
                                 </div>
                                 <div className="decorator">
                                 </div>
                                 <div className="details">
                                     <header>
-                                        <h3>Some Project 2</h3>
-                                        <span className="place">Some workplace</span>
+                                        <h3><b>Driver Drowsiness Classification</b></h3>
                                     </header>
                                     <div>
                                         <ul>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio. Vestibulum dapibus pharetra odio, egestas ullamcorper ipsum congue ac. Maecenas viverra tortor eget convallis vestibulum. Donec pulvinar venenatis est, non sollicitudin metus laoreet sed. Fusce tincidunt felis nec neque aliquet porttitor</li>
+                                            <li>Face Detection and alert system for the driver. Instant
+                                                Face classification system. Classify every frame when a
+                                                face is detected.
+                                            </li>
+                                            <li>Keywords: Classification, Haarcascade, Alert System,
+                                                Keras, OpenCV, python
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/Aditta-das/Drowsy-Driver-">github</a>
+                                                <br />
+                                                <a href="https://www.kaggle.com/adinishad/driver-drowsiness-using-keras">kaggle</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </section>
                             <section className="blocks">
                                 <div className="date">
-                                    <span>2014</span>
+
                                 </div>
                                 <div className="decorator">
                                 </div>
                                 <div className="details">
                                     <header>
-                                        <h3>Some Project 3</h3>
-                                        <span className="place">Some workplace</span>
+                                        <h3><b>Urban Sound Classification</b></h3>
+
                                     </header>
                                     <div>
                                         <ul>
-                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio</li>
+                                            <li>Deal with a lot of sounds. Classify with the best accuracy.
+                                                The more Challenging part was feature extraction.</li>
+                                            <li>Keywords: Spectrogram, Mel-spectrogram, torchaudio,
+                                                PyTorch</li>
+                                            <li><a href="https://www.kaggle.com/adinishad/urbansound-classification-with-pytorch-and-fun">kaggle</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <section className="blocks">
+                                <div className="date">
+
+                                </div>
+                                <div className="decorator">
+                                </div>
+                                <div className="details">
+                                    <header>
+                                        <h3><b>Bangla News Classification</b></h3>
+
+                                    </header>
+                                    <div>
+                                        <ul>
+                                            <li>Bangla News classification using PyTorch and react, drf</li>
+                                            <li>Keywords: Classification, PyTorch, react, and Django rest
+                                                framework</li>
+                                            <li><a href="https://github.com/Aditta-das/Bangla-News-Classification">github</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -148,67 +161,48 @@ class Resume extends React.Component {
                             </h2>
                             <section className="blocks">
                                 <div className="date">
-                                    <span>2009</span><span>2014</span>
+                                    <span>2019</span><span>2020</span>
                                 </div>
                                 <div className="decorator">
                                 </div>
                                 <div className="details">
                                     <header>
-                                        <h3>Ph.D. in Forty-Two Discovery</h3>
-                                        <span className="place">Inexistent University</span>
-                                        <span className="location">Some City, Some Country</span>
+                                        <h3>M.Sc. - Applied Mathematics</h3>
+                                        <h3>CGPA - 3.53 / 4.00 </h3>
+                                        <h3>Result Publish 19.04.2022</h3>
+                                        <span className="place">Noakhali Science and Technology University</span>
+                                        <span className="location">Noakhali, Bangladesh</span>
                                     </header>
-                                    <div>Relationship of the number with the answer to life, the universe and everything</div>
                                 </div>
                             </section>
                             <section className="blocks">
                                 <div className="date">
-                                    <span>2005</span><span>2009</span>
+                                    <span>2015</span><span>Nov, 2019</span>
                                 </div>
                                 <div className="decorator">
                                 </div>
                                 <div className="details">
                                     <header>
-                                        <h3>LL.B. in H&aelig;matophagic Economics</h3>
-                                        <span className="place">Inexistent University</span>
-                                        <span className="location">Some City, Some Country</span>
+                                        <h3>B.Sc. - Applied Mathematics</h3>
+                                        <h3>CGPA - 3.29 / 4.00 </h3>
+                                        <span className="place">Noakhali Science and Technology University</span>
+                                        <span className="location">Noakhali, Bangladesh</span>
                                     </header>
-                                    <div>President's Scholarship</div>
                                 </div>
                             </section>
                             <section className="blocks">
                                 <div className="date">
-                                    <span>2005</span><span>2009</span>
+                                    <span>2013</span><span>2015</span>
                                 </div>
                                 <div className="decorator">
                                 </div>
                                 <div className="details">
                                     <header>
-                                        <h3>B.S. in Existential Science (Double Major)</h3>
-                                        <span className="place">Inexistent University</span>
-                                        <span className="location">Some City, Some Country</span>
+                                        <h3>H.S.C - Science</h3>
+                                        <h3>GPA - 5.00 / 5.00 </h3>
+                                        <span className="place">Saint Joseph Higher Secondary School</span>
+                                        <span className="location">Dhaka, Bangladesh</span>
                                     </header>
-                                    <div>President's Scholarship</div>
-                                </div>
-                            </section>
-                            <section className="blocks">
-                                <div className="date">
-                                </div>
-                                <div className="decorator">
-                                </div>
-                                <div className="details">
-                                    <header>
-                                        <h3>Massive Online Fee&ndash;Required Course (selective list)</h3>
-                                    </header>
-                                    <div className="concise">
-                                        <ul>
-                                            <li>Introduction to something else</li>
-                                            <li>Introduction to some more useless things</li>
-                                            <li>Philosophy in practice</li>
-                                            <li>Recursive research and its impact on recursive research</li>
-                                            <li>Artificial politics</li>
-                                        </ul>
-                                    </div>
                                 </div>
                             </section>
                         </section>

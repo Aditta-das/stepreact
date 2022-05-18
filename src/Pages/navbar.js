@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <>
             <div className="webName">
-                <h1 className="webTitle">Sigmoid</h1>
+                <h1 className="webTitle"><b>Sigmoid</b></h1>
             </div>
             <ul className="nav justify-content-center">
                 <li className="nav-item">

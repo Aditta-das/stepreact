@@ -9,6 +9,7 @@ import QuestionForm from './Pages/question';
 import Home from './Pages/home';
 import Resume from './Pages/resume';
 import Answer from './Pages/answer';
+import { Navigate } from "react-router-dom";
 
 
 
@@ -30,7 +31,7 @@ import Answer from './Pages/answer';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App/>}></Route>
+      <Route path="/" element={<Navigate replace to="/home" />}/>
       <Route path="/home" element={<Home/>}></Route>
       <Route path="/dropaquestion" element={<QuestionForm/>}></Route>
       <Route path="/qa" element={<Answer/>}></Route>
